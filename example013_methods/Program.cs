@@ -107,7 +107,7 @@
 //     for(int i = 0; i < lenght; i++)
 //     {
 //         if(text[i] == oldValue) result = result + $"{newValue}";
-//         else result + $"{text[i]}";
+//         else result = result + $"{text[i]}";
 //     }
 //     return result;
 // }
