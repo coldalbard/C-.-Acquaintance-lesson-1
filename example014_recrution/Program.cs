@@ -100,7 +100,10 @@
 //     {
 //         for(int j = 0; j < image.GetLength(1); j++)
 //         {
-//             if(image[i, j] == 0) Console.Write($" ");
+//             if(image[i, j] == 0) 
+//             {
+//             Console.Write($"-");
+//             }
 //             else 
 //             {
 //                 Console.ForegroundColor = ConsoleColor.Red;
