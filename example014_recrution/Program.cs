@@ -40,6 +40,8 @@
 //         Console.WriteLine();
 //     }
 // }
+// // Функция для вывода двумерного массива
+
 
 // void FillArray(int[,] matr)
 // {
@@ -51,6 +53,9 @@
 //         }
 //     }
 // }
+// // Функция для создания рандомного двумерного массива + вывод матрицы
+
+
 
 // int[,] matrix = new int [3, 4];
 // PrintArray(matrix);
@@ -128,6 +133,8 @@
 // }
 
 // PrintImage(pic);
+// Console.WriteLine();
+// Console.WriteLine();
 
 // FillImage(13, 12);
 
@@ -150,6 +157,7 @@
 //     if(n == 1) return 1;
 //     else return n * Factorial(n - 1);
 // }
+ 
 // for(int i = 1; i < 40; i++)
 // {
 //     Console.WriteLine($"{i}! = {Factorial(i)}"); 
@@ -175,7 +183,7 @@
 //     else return Fibonacci(n - 1) + Fibonacci(n - 2);
 // }
 
-// for(int i = 1; i < 50; i++)
+// for(int i = 1; i < 10; i++)
 // {
 //     Console.WriteLine($"f {i} = {Fibonacci(i)}");
 // }
