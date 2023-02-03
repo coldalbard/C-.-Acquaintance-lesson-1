@@ -10,14 +10,12 @@ if(distance < 10)
 {
     Console.Write(count);
 }
-else
+if(distance > 10)
 {
-    while(distance)
+    while(10 < distance)
     {
-        if(distance > 10)
-        {
 
-            if(friend == 1)
+        if(friend == 1)
             {
                 Time = distance / (firstFriendSpeed + dogSpeed);
                 friend = 2;
@@ -25,14 +23,14 @@ else
                 count= count + 1;
         
             }
-            if(friend != 1)
+        if(friend != 1)
             {
                 Time = distance / (SecondFriendSpeed + dogSpeed);
                 friend = 1;
                 distance = distance - (firstFriendSpeed + SecondFriendSpeed);
                 count = count + 1;
             }
-        }
-    Console.WriteLine(count);
+    Console.WriteLine(count);        
     }
+    
 }
