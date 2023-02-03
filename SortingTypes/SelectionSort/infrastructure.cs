@@ -7,7 +7,8 @@ public static class infrastucture
                 .Select(item => Random.Shared.Next(min, max))
                 .ToArray();
     }
-    public static void ShowArray(int[] array){
-        WriteLine($"[{String.Join(',', array)}]");
+    public static void ShowArray(int[] array, string separator = ","){
+        string output = String.Join(separator, array);
+        WriteLine($"[{output}]");
     }
 }
