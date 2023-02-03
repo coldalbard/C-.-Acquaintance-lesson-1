@@ -2,7 +2,7 @@
 using static System.Console;
 using static infrastucture;
 
-int[] array = CreateArray(10);
-ShowArray(array, ", ");
-SortSelection(array);
-ShowArray(array, ",");
+10.CreateArray(min: 10, max: 15)
+  .ShowArray()
+  .SortSelection()
+  .ShowArray(", ");
