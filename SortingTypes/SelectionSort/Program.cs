@@ -2,7 +2,8 @@
 using static System.Console;
 using static infrastucture;
 
-10.CreateArray(min: 10, max: 15)
+int size = 10;
+int[] arr = size.CreateArray(min: -1, max: 15)
   .ShowArray()
-  .SortSelection()
+  .SortQuick(left: 0,  right: size - 1)
   .ShowArray(", ");
